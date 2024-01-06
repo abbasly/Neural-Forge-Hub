@@ -42,7 +42,7 @@ I2Pytorch is a project dedicated to implementing deep learning models using the 
 
 ## 6. Autoencoder
 
-In the initial steps, I downloaded the MNIST dataset, consisting of 60,000 handwritten digit images. To overcome the challenge of labeling such a vast dataset, I strategically labeled a subset of 300 images. Among these, 100 were assigned for training, 100 for validation, and the remaining 100 for testing, posing a unique challenge due to the limited labeled samples.
+Imagine dealing with a dataset of 60,000 data points, where labeling each one is prohibitively expensive. What if we could label only a small portion of it? Is that sufficient for training a neural network? This is precisely where the power of autoencoders comes into play. Instead of individually labeling the entire dataset, a strategic subset of 300 images was selected for training, validation, and testing, showcasing the effectiveness of autoencoders in handling datasets with limited labeled information.
 
 Throughout the process, I applied various data transformations, including random flipping and rotation, to augment the labeled dataset. However, the true breakthrough came from the fundamental working principle of the autoencoder. The key question was whether I could represent the unlabeled data effectively in a smaller latent space. This critical aspect propelled me to secure the **1st place out of 600** participants on the leaderboard
 
