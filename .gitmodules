@@ -1,0 +1,3 @@
+[submodule "Autoencoder"]
+	path = Autoencoder
+	url = /Users/anar/Desktop/TUM/Neural-Forge-Hub/Autoencoder/.git
