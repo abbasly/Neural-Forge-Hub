@@ -12,6 +12,7 @@ This repository contains projects completed during the "Introduction to Deep Lea
   - [5. I2Pytorch](#5-i2pytorch)
   - [6. Autoencoder](#6-autoencoder)
   - [7. FacialKeypointDetection](#7-facialkeypointdetection)
+  - [9. TransSeg](#9-transseg)
 
 
 ## 1. DataLoader
@@ -53,3 +54,14 @@ The projects in this lecture are divided into two main parts. The first part inv
 With the recent introduction of Convolutional Neural Networks (CNNs), we are equipped with a powerful tool that we'll delve into in this exercise. Your task for this week is to build a Convolutional Neural Network for facial keypoint detection.
 
 Facial keypoints, also known as facial landmarks, are the small magenta dots visible on each face in the images above. These keypoints signify crucial areas of the face, including the eyes, corners of the mouth, nose, etc. They play a vital role in various computer vision tasks such as face filters, emotion recognition, pose recognition, and more. Let's dive into exploring the capabilities of CNNs for this task!
+
+## 9. TransSeg
+
+- Semantic Segmentation Problem: MSRC-v2 Dataset
+  - Utilized a Fully Convolutional Network (FCN) architecture for semantic segmentation.
+  - Experimented with pre-trained models, including AlexNet and ResNet18.
+  - Opted for ResNet18 in the final version due to its higher accuracy.
+- Accuracy Enhancement Strategy
+  - Implemented a pixel-wise cross-entropy loss function.
+  - Precision in loss calculation allowed for the exclusion of unlabeled segments.
+  - This approach, incorporating ResNet18 and a tailored loss function, contributed to the model's robust performance on the MSRC-v2 dataset in semantic segmentation tasks.
