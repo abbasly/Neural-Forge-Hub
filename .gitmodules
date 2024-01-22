@@ -1,3 +1,6 @@
 [submodule "Autoencoder"]
 	path = Autoencoder
 	url = git@github.com:abbasly/Autoencoder.git
+[submodule "TransSeg"]
+	path = TransSeg
+	url = git@github.com:abbasly/TransSeg.git
