@@ -12,7 +12,7 @@ This repository contains projects completed during the "Introduction to Deep Lea
   - [5. I2Pytorch](#5-i2pytorch)
   - [6. Autoencoder](#6-autoencoder)
   - [7. FacialKeypointDetection](#7-facialkeypointdetection)
-  - [9. TransSeg](#9-transseg)
+  - [8. TransSeg](#8-transseg)
 
 
 ## 1. DataLoader
@@ -55,7 +55,7 @@ With the recent introduction of Convolutional Neural Networks (CNNs), we are equ
 
 Facial keypoints, also known as facial landmarks, are the small magenta dots visible on each face in the images above. These keypoints signify crucial areas of the face, including the eyes, corners of the mouth, nose, etc. They play a vital role in various computer vision tasks such as face filters, emotion recognition, pose recognition, and more. Let's dive into exploring the capabilities of CNNs for this task!
 
-## 9. TransSeg
+## 8. TransSeg
 
 - Semantic Segmentation Problem: MSRC-v2 Dataset
   - Utilized a Fully Convolutional Network (FCN) architecture for semantic segmentation.
