@@ -59,8 +59,8 @@ Facial keypoints, also known as facial landmarks, are the small magenta dots vis
 
 - Semantic Segmentation Problem: MSRC-v2 Dataset
   - Utilized a Fully Convolutional Network (FCN) architecture for semantic segmentation.
-  - Experimented with pre-trained models, including AlexNet and ResNet18.
-  - Opted for ResNet18 in the final version due to its higher accuracy.
+  - Experimented with pre-trained models, including AlexNet, VGGNet, ResNet18.
+  - Opted for ResNet18 in the final version which achieves **86% test accurac**y.
 - Accuracy Enhancement Strategy
   - Implemented a pixel-wise cross-entropy loss function.
   - Precision in loss calculation allowed for the exclusion of unlabeled segments.
