@@ -4,3 +4,6 @@
 [submodule "TransSeg"]
 	path = TransSeg
 	url = git@github.com:abbasly/TransSeg.git
+[submodule "TransLator"]
+	path = TransLator
+	url = git@github.com:abbasly/TransLator.git
