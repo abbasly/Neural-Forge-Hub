@@ -13,6 +13,8 @@ This repository contains projects completed during the "Introduction to Deep Lea
   - [6. Autoencoder](#6-autoencoder)
   - [7. FacialKeypointDetection](#7-facialkeypointdetection)
   - [8. TransSeg](#8-transseg)
+  - [9. TransLator](#9-translator)
+  - [Features](#features)
 
 
 ## 1. DataLoader
@@ -65,3 +67,12 @@ Facial keypoints, also known as facial landmarks, are the small magenta dots vis
   - Implemented a pixel-wise cross-entropy loss function.
   - Precision in loss calculation allowed for the exclusion of unlabeled segments.
   - This approach, incorporating ResNet18 and a tailored loss function, contributed to the model's robust performance on the MSRC-v2 dataset in semantic segmentation tasks.
+
+## 9. TransLator
+
+TransLator is a project implementing a translator from English to German using the Transformer architecture introduced in the "Attention is All You Need" paper.
+
+## Features
+- Transformer Architecture: Based on the "Attention is All You Need" paper, our model employs a transformer architecture for efficient sequence-to-sequence translation.
+
+- English to German Translation: TransLator specializes in translating English sentences into German, showcasing the model's capabilities in multilingual translation tasks.
