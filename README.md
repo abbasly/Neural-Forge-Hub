@@ -14,7 +14,7 @@ This repository contains projects completed during the "Introduction to Deep Lea
   - [7. FacialKeypointDetection](#7-facialkeypointdetection)
   - [8. TransSeg](#8-transseg)
   - [9. TransLator](#9-translator)
-  - [Features](#features)
+    - [Features](#features)
 
 
 ## 1. DataLoader
@@ -72,7 +72,7 @@ Facial keypoints, also known as facial landmarks, are the small magenta dots vis
 
 TransLator is a project implementing a translator from English to German using the Transformer architecture introduced in the "Attention is All You Need" paper.
 
-## Features
+### Features
 - Transformer Architecture: Based on the "Attention is All You Need" paper, our model employs a transformer architecture for efficient sequence-to-sequence translation.
 
 - English to German Translation: TransLator specializes in translating English sentences into German, showcasing the model's capabilities in multilingual translation tasks.
